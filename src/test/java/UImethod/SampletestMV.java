@@ -26,6 +26,7 @@ public class SampletestMV {
 		//2.Validate Title of the page 
 		String Stitle =driver.getTitle();
 		System.out.println(Stitle);
+		driver.close();
 	}
 
 
