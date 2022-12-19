@@ -73,7 +73,7 @@ System.setProperty("webdriver.chrome.driver","F:\\QA Automation\\Selenium\\chrom
 				   Select objsel= new Select(CountryList);
 				   objsel.selectByVisibleText("United Kingdom");
 				
-				   driver.findElement(By.xpath("//input[@name='telephone']")).sendKeys("07393154631");
+				   driver.findElement(By.xpath("//input[@name='telephone']")).sendKeys("07353154631");
 				
 				   Thread.sleep(3000);
 				
